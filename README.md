@@ -15,6 +15,20 @@ Basic auth with: larry/hello
 
 Use curl or Postman to perform the REST calls
 
+
+---
+HOW TO RUN
+cd .../rest-example
+run "python3 -m virtualenv venv"
+run "source venv/bin/activate"
+cd .../rest-example/django_project
+run "python manage.py migrate"
+run "python manage.py runserver"
+
+Refer to this page
+https://www.django-rest-framework.org/tutorial/quickstart/
+
+
 ---
 
 Based on these requirements:
